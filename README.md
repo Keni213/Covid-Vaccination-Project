@@ -2,9 +2,9 @@
 
 <h3>Features</h3>
 <ul>
-<li>•Customized method </li>
+<li>Customized method </li>
 Our customized feature is to interrogate the full vaccinations per capita for the area with the highest market value per capita for the date that the user inputs. It will return a String with the ZIP Code of the area concatenated by the full vaccinations per capita for the area.
-<li>•	Methods</li>
+<li>Methods</li>
 The function will take a date from the user and check its format, then pass it into the function as an argument. The function will use the input date and the underlying covid record, properties, and population data to perform the inquiry by following steps.
 <ul>
 <li>
