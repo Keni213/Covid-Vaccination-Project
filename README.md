@@ -1,18 +1,18 @@
 <h2>Data Structure and Software Design </h2>
+
+<h3>Features</h3>
 <ul>
-
-<li>•	What is our customized method </li>
+<li>•Customized method </li>
 Our customized feature is to interrogate the full vaccinations per capita for the area with the highest market value per capita for the date that the user inputs. It will return a String with the ZIP Code of the area concatenated by the full vaccinations per capita for the area.
-
-<li>•	How the method works</li>
+<li>•	Methods</li>
 The function will take a date from the user and check its format, then pass it into the function as an argument. The function will use the input date and the underlying covid record, properties, and population data to perform the inquiry by following steps.
 <ul>
 <li>
-o	Use the function described in 3.3 to collect the full vaccinations per capita on the inquired date for all the available areas. The data are then stored in a map with ZIPCode as its key and full vaccinations per capita as its value. </li>
+Use the function described in 3.3 to collect the full vaccinations per capita on the inquired date for all the available areas. The data are then stored in a map with ZIPCode as its key and full vaccinations per capita as its value. </li>
 <li>
-o	Iterate over the collected ZIPCode in the map and use the method described in 3.5 to interrogate the associated market value per capita to find the area that has the highest market value. </li>
+Iterate over the collected ZIPCode in the map and use the method described in 3.5 to interrogate the associated market value per capita to find the area that has the highest market value. </li>
 <li>
-o	Return the ZIP Code and the full vaccinations per capita in a string format to the UI and print it to the console.</li>
+Return the ZIP Code and the full vaccinations per capita in a string format to the UI and print it to the console.</li>
 </ul>
 
 •	Why the method works
